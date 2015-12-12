@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		E18900BE1C128FC6004B6151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E18900BD1C128FC6004B6151 /* main.m */; };
 		E18900C11C128FC6004B6151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E18900C01C128FC6004B6151 /* AppDelegate.m */; };
-		E18900C41C128FC6004B6151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E18900C31C128FC6004B6151 /* ViewController.m */; };
-		E18900C71C128FC6004B6151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18900C51C128FC6004B6151 /* Main.storyboard */; };
 		E18900C91C128FC6004B6151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18900C81C128FC6004B6151 /* Assets.xcassets */; };
 		E18900CC1C128FC6004B6151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18900CA1C128FC6004B6151 /* LaunchScreen.storyboard */; };
+		E18900D51C12903F004B6151 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E18900D41C12903F004B6151 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E18900D71C1290B6004B6151 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18900D61C1290B6004B6151 /* Photos.framework */; };
+		E18900DA1C129538004B6151 /* AlbumMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E18900D91C129538004B6151 /* AlbumMenuView.m */; settings = {ASSET_TAGS = (); }; };
+		E18900DD1C129B16004B6151 /* PhotoManagerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E18900DC1C129B16004B6151 /* PhotoManagerUtil.m */; settings = {ASSET_TAGS = (); }; };
+		E19B38851C1BD441003BC6DF /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B38841C1BD441003BC6DF /* PhotoBrowserViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		E18900BD1C128FC6004B6151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E18900BF1C128FC6004B6151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E18900C01C128FC6004B6151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E18900C21C128FC6004B6151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E18900C31C128FC6004B6151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E18900C61C128FC6004B6151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E18900C81C128FC6004B6151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E18900CB1C128FC6004B6151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E18900CD1C128FC6004B6151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18900D31C12903F004B6151 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E18900D41C12903F004B6151 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E18900D61C1290B6004B6151 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		E18900D81C129538004B6151 /* AlbumMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumMenuView.h; sourceTree = "<group>"; };
+		E18900D91C129538004B6151 /* AlbumMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumMenuView.m; sourceTree = "<group>"; };
+		E18900DB1C129B16004B6151 /* PhotoManagerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoManagerUtil.h; sourceTree = "<group>"; };
+		E18900DC1C129B16004B6151 /* PhotoManagerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoManagerUtil.m; sourceTree = "<group>"; };
+		E19B38831C1BD441003BC6DF /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
+		E19B38841C1BD441003BC6DF /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +42,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18900D71C1290B6004B6151 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E10578421C1BE3FD007EC4B0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E18900D31C12903F004B6151 /* MainViewController.h */,
+				E18900D41C12903F004B6151 /* MainViewController.m */,
+				E18900D81C129538004B6151 /* AlbumMenuView.h */,
+				E18900D91C129538004B6151 /* AlbumMenuView.m */,
+				E18900DB1C129B16004B6151 /* PhotoManagerUtil.h */,
+				E18900DC1C129B16004B6151 /* PhotoManagerUtil.m */,
+				E19B38831C1BD441003BC6DF /* PhotoBrowserViewController.h */,
+				E19B38841C1BD441003BC6DF /* PhotoBrowserViewController.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		E18900B01C128FC6004B6151 = {
 			isa = PBXGroup;
 			children = (
+				E18900D61C1290B6004B6151 /* Photos.framework */,
 				E18900BB1C128FC6004B6151 /* PhotoManager */,
 				E18900BA1C128FC6004B6151 /* Products */,
 			);
@@ -58,11 +84,9 @@
 		E18900BB1C128FC6004B6151 /* PhotoManager */ = {
 			isa = PBXGroup;
 			children = (
+				E10578421C1BE3FD007EC4B0 /* Class */,
 				E18900BF1C128FC6004B6151 /* AppDelegate.h */,
 				E18900C01C128FC6004B6151 /* AppDelegate.m */,
-				E18900C21C128FC6004B6151 /* ViewController.h */,
-				E18900C31C128FC6004B6151 /* ViewController.m */,
-				E18900C51C128FC6004B6151 /* Main.storyboard */,
 				E18900C81C128FC6004B6151 /* Assets.xcassets */,
 				E18900CA1C128FC6004B6151 /* LaunchScreen.storyboard */,
 				E18900CD1C128FC6004B6151 /* Info.plist */,
@@ -139,7 +163,6 @@
 			files = (
 				E18900CC1C128FC6004B6151 /* LaunchScreen.storyboard in Resources */,
 				E18900C91C128FC6004B6151 /* Assets.xcassets in Resources */,
-				E18900C71C128FC6004B6151 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E18900C41C128FC6004B6151 /* ViewController.m in Sources */,
 				E18900C11C128FC6004B6151 /* AppDelegate.m in Sources */,
+				E18900D51C12903F004B6151 /* MainViewController.m in Sources */,
+				E19B38851C1BD441003BC6DF /* PhotoBrowserViewController.m in Sources */,
+				E18900DD1C129B16004B6151 /* PhotoManagerUtil.m in Sources */,
 				E18900BE1C128FC6004B6151 /* main.m in Sources */,
+				E18900DA1C129538004B6151 /* AlbumMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E18900C51C128FC6004B6151 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E18900C61C128FC6004B6151 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E18900CA1C128FC6004B6151 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -265,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.PhotoManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.PhotoManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +321,7 @@
 				E18900D21C128FC6004B6151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
